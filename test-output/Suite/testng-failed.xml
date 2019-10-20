@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.pom.ExtentReports.ExtentListeners"/>
+    <listener class-name="com.pom.utilities.Listeners"/>
+  </listeners>
+  <test name="Regression Tests">
+    <classes>
+      <class name="com.regression.testcases.validateHomePage"/>
+    </classes>
+  </test> <!-- Regression Tests -->
+  <test name="Regression Tests(failed)">
+    <classes>
+      <class name="com.regression.testcases.validateHomePage">
+        <methods>
+          <include name="beforetest"/>
+          <include name="FlightBooking" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.regression.testcases.validateHomePage -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

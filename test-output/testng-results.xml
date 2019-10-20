@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34486" started-at="2019-10-08T12:06:03Z" finished-at="2019-10-08T12:06:37Z">
+    <groups>
+    </groups>
+    <test name="Regression Tests" duration-ms="34486" started-at="2019-10-08T12:06:03Z" finished-at="2019-10-08T12:06:37Z">
+      <class name="com.regression.testcases.validateHomePage">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.regression.testcases.validateHomePage@64729b1e]" name="beforetest" is-config="true" duration-ms="2106" started-at="2019-10-08T17:36:03Z" finished-at="2019-10-08T17:36:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="SKIP" signature="FlightBooking(java.util.Hashtable)[pri:0, instance:com.regression.testcases.validateHomePage@64729b1e]" name="FlightBooking" duration-ms="26" started-at="2019-10-08T17:36:05Z" data-provider="datagenerator" finished-at="2019-10-08T17:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{To=Mysore, Return=14/2/2020, From=Hyderabad, Departure=14/2/2020}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Testcase]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Testcase
+	at com.pom.utilities.Listeners.onTestStart(Listeners.java:23)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="SKIP" signature="FlightBooking(java.util.Hashtable)[pri:0, instance:com.regression.testcases.validateHomePage@64729b1e]" name="FlightBooking" duration-ms="3" started-at="2019-10-08T17:36:05Z" data-provider="datagenerator" finished-at="2019-10-08T17:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{To=Goa, Return=14/4/2020, From=Chennai, Departure=14/3/2020}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Testcase]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Testcase
+	at com.pom.utilities.Listeners.onTestStart(Listeners.java:23)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="SKIP" signature="FlightBooking(java.util.Hashtable)[pri:0, instance:com.regression.testcases.validateHomePage@64729b1e]" name="FlightBooking" duration-ms="7" started-at="2019-10-08T17:36:05Z" data-provider="datagenerator" finished-at="2019-10-08T17:36:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{To=Hyderabad, Return=21/11/2019, From=Mumbai, Departure=19/11/2019}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping Testcase]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping Testcase
+	at com.pom.utilities.Listeners.onTestStart(Listeners.java:23)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightBooking -->
+        <test-method status="PASS" signature="validateMakeMyTripPage()[pri:0, instance:com.regression.testcases.validateHomePage@64729b1e]" name="validateMakeMyTripPage" duration-ms="32192" started-at="2019-10-08T17:36:05Z" finished-at="2019-10-08T17:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMakeMyTripPage -->
+      </class> <!-- com.regression.testcases.validateHomePage -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
