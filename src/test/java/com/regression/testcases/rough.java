@@ -34,6 +34,7 @@ public class rough {
 			System.out.println(itr.next().getText());
 		}*/
 		System.out.println("change from pomproj");
+		System.out.println("changes from pomfactory");
 		
 		System.setProperty("webdriver.chrome.driver",
 				"c:\\Users\\ADMIN\\chromedriver_win32_chrome77\\chromedriver.exe");

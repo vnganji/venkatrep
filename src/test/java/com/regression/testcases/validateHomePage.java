@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 
 import com.pom.pages.homePage;
 import com.pom.pages.hotelspage;
+import com.pom.pages.basePage;
 import com.pom.utilities.Constants;
 import com.pom.utilities.metadata;
 import com.pom.utilities.DataUtil;
