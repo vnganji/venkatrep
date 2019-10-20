@@ -18,7 +18,6 @@ import com.pom.utilities.Constants;
 import com.pom.utilities.DriverManager;
 
 public class rough {
-system.out.println("changes");
 	public static WebDriver driver;
 	public static void main(String[] args) {
 		/*System.setProperty("webdriver.chrome.driver",
@@ -34,6 +33,7 @@ system.out.println("changes");
 		while (itr.hasNext()) {
 			System.out.println(itr.next().getText());
 		}*/
+		System.out.println("change from pomproj");
 		
 		System.setProperty("webdriver.chrome.driver",
 				"c:\\Users\\ADMIN\\chromedriver_win32_chrome77\\chromedriver.exe");
