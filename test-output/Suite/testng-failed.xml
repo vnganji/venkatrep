@@ -15,7 +15,7 @@
       <class name="com.regression.testcases.validateHomePage">
         <methods>
           <include name="beforetest"/>
-          <include name="FlightBooking" invocation-numbers="0 1 2"/>
+          <include name="validateMakeMyTripPage"/>
         </methods>
       </class> <!-- com.regression.testcases.validateHomePage -->
     </classes>

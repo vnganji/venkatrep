@@ -33,7 +33,7 @@ public class rough {
 		while (itr.hasNext()) {
 			System.out.println(itr.next().getText());
 		}*/
-		System.out.println("change from pomproj");
+		System.out.println("change from pomproject");
 		System.out.println("changes from pomfactory");
 		
 		System.setProperty("webdriver.chrome.driver",
